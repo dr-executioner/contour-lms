@@ -20,7 +20,7 @@ cd <your-repo-folder>
 ### 2. Install dependencies  
 At the root of the turborepo:  
 ```bash
-pnpm install
+npm install
 ```
 *(You can also use `npm` or `yarn`, but `pnpm` is recommended for monorepos.)*  
 
@@ -34,7 +34,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
 ### 4. Run the development server  
 ```bash
 cd apps/web
-pnpm dev
+npm run dev
 ```
 
 Your app should now be running at [http://localhost:3000](http://localhost:3000).  

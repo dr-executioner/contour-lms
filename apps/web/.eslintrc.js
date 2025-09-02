@@ -6,4 +6,12 @@ module.exports = {
   parserOptions: {
     project: true,
   },
+	overrides: [
+    {
+      files: ["*.config.*"],
+      parserOptions: {
+        project: null, // disables typed linting for config files
+      },
+    },
+  ],
 };

@@ -9,19 +9,24 @@
     "start": "next start"
   },
   "dependencies": {
+    "@repo/ui": "*",
+    "@tailwindcss/postcss": "^4.1.12",
+    "lucide-react": "^0.542.0",
     "next": "^14.1.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@repo/ui": "*"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.1.1",
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
     "@types/node": "^20.11.24",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.21",
     "eslint": "^8.57.0",
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12",
     "typescript": "5.5.4"
   }
 }

@@ -22,10 +22,9 @@ At the root of the turborepo:
 ```bash
 npm install
 ```
-*(You can also use `npm` or `yarn`, but `pnpm` is recommended for monorepos.)*  
 
 ### 3. Environment variables  
-Create a `.env.local` file inside your frontend app (e.g., `apps/web/`):  
+Create a `.env` file inside your frontend app (e.g., `apps/web/`):  
 ```env
 NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
@@ -33,7 +32,6 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
 
 ### 4. Run the development server  
 ```bash
-cd apps/web
 npm run dev
 ```
 
